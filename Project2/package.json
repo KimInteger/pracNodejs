@@ -1,0 +1,11 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "\"한번 더 연습을 하기위한 프로젝트입니다.\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "김인티저",
+  "license": "MIT"
+}
