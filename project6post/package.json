@@ -1,0 +1,11 @@
+{
+  "name": "project6post",
+  "version": "1.0.0",
+  "description": "\"POST방식 첫 연습\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IntegerKim",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "project5",
+  "version": "1.0.0",
+  "description": "\"아이디 입력 받기\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "인티저Kim",
+  "license": "MIT"
+}

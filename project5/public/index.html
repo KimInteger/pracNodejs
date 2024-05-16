@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #root{
+      width: 400px;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      border: 3px solid black;
+    }
+
+    form {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+
+    form > div:nth-child(1){
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    form > div:nth-child(2){
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+    }
+
+    form > div:nth-child(2) > button {
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <form action="/test" method="GET">
+      <div>
+        <div>
+          <label for="name">파일이름</label>
+          <input type="text" name="name" id="name"required />
+        </div>
+        <div>
+          <label for="content">파일내용</label>
+          <input type="text" name="content" id="content" required />
+        </div>
+      </div>
+      <div>
+        <button id="submitB" type="submit">전송</button>
+      </div>
+    </form>
+  </div>
+  <script>
+    const root = document.getElementById('root');
+
+    const submitB = document.getElemnetById('submitB');
+
+    let id = {};
+    
+    const info = [
+      {password : `kiminteger`},
+    ];
+
+    id = info[0];
+
+    function test(test){
+      if(id.password === test){
+        console.log("correct");
+      }else{
+        console.log("false");
+      }
+    }
+
+
+  </script>
+</body>
+</html>

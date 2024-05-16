@@ -1,0 +1,16 @@
+h1{
+  color: lightblue;
+  font-size: 3rem;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 5rem;
+  color: red;
+}
+
+input {
+  display: block;
+  margin-top: 15px;
+}
