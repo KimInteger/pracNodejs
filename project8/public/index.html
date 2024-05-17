@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>빠빠빠빨간맛 궁금해 초록불</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="root">
+    <form action="/test" method="post">
+      <div>
+        <div>
+          <label for="name">나의 이름</label>
+          <input type="text" name="name" id="inputName" placeholder="나의 이름을 작성해주세요 ex&#41;공욱재">
+        </div>
+        <div>
+          <div class="checkBool"></div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="password">비밀번호</label>
+          <input type="text" name="password" id="inputPass" placeholder="정자이름과 핸드폰 뒷자리 4자리를 작성해주세요. ex&#41;공욱재0957">
+        </div>
+        <div>
+          <div class="checkBool"></div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="checkPassword">비밀번호 확인</label>
+          <input type="text" name="checkPassword" id="inputCheck" placeholder="위 비밀번호 입력과 동일하게 다시한번 작성해주세요.">
+        </div>
+        <div>
+          <div class="checkBool"></div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="Email">이메일 주소</label>
+          <input type="text" name="Email" id="inputEmail" placeholder="이메일의 주소 양식에 맞게 작성해주세요">
+        </div>
+        <div>
+          <div class="checkBool"></div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="phoneNumber">핸드폰 번호</label>
+          <input type="text" name="phoneNumber" id="inputPhone" placeholder="핸드폰 번호 양식에 맞게 작성해주세요.">
+        </div>
+        <div>
+          <div class="checkBool"></div>
+        </div>
+      </div>
+      <div>
+        <label for="allSet">작성 완료</label>
+        <div id="submit">
+          아직 모든 입력란이 유효하지 않습니다.
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
