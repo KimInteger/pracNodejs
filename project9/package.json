@@ -1,0 +1,11 @@
+{
+  "name": "project9",
+  "version": "1.0.0",
+  "description": "\"하루한번 서버열기\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "김인티저",
+  "license": "MIT"
+}
