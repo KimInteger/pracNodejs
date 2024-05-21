@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  > #borad{
+    width: 1000px;
+    height: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(10,80px);
+    grid-template-columns: 1fr;
+  }
+  > a{
+    width: 100px;
+    height: 30px;
+    font-size:1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+  }
+}

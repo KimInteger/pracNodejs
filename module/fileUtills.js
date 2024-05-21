@@ -17,19 +17,18 @@ const fileUtills = {
 
   getContentType : function(ext){
     const mimeType = {
-      "./html" : "text/html; charset=UTF-8",
-      "./css" : "text/css",
-      "./js" : "application/js",
-      "./json" : "application/json",
+      ".html" : "text/html; charset=UTF-8",
+      ".css" : "text/css",
+      ".js" : "application/js",
+      ".json" : "application/json",
       ".ico" : "img/x-icon"
     }
-    let contentType = '';
+
     if(mimeType.hasOwnProperty(ext)){
-      contentType = mimeType[ext];
+      return mimeType[ext];
     } else {
-      contentType = "text/plain; charset=UTF-8";
+      return "text/plain; charset=UTF-8";
     }
-    return contentType;
   }
 };
 

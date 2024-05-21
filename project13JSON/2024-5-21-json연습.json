@@ -1,0 +1,10 @@
+{
+  "head": {
+    "title": "json연습"
+  },
+  "body": {
+    "header": "메뉴부분",
+    "main": "메인부분",
+    "footer": "하단부분"
+  }
+}
