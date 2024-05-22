@@ -1,0 +1,11 @@
+{
+  "name": "project15postget",
+  "version": "1.0.0",
+  "description": "\"POST GET 연습\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "김인티저",
+  "license": "MIT"
+}

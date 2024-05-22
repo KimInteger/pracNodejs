@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#squre {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+button {
+  z-index: 2;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
