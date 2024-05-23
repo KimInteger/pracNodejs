@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>하늘에서 네모가 떨어진다.</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    #root {
+      width: 100vw;
+      height: 1080px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #fallSqure{
+      position: absolute;
+      bottom: 0;
+      width: 200px;
+      height: 60px;
+      font-size: 1rem;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <button id="fallSqure">네모가내린다.</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

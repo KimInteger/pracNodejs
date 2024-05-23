@@ -1,0 +1,11 @@
+{
+  "name": "project19syncasync",
+  "version": "1.0.0",
+  "description": "\"동기,비동기와친해지기\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "인티저김",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "readline-work",
+  "version": "1.0.0",
+  "description": "리드라인을연습할것임",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kim Integer",
+  "license": "MIT"
+}
